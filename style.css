@@ -1,0 +1,71 @@
+body{
+    background-color: #4d3b3b;
+    font-family: 'Recursive';
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.logo{
+    max-width: 100px;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.conheca_mais{
+    height: 100vh;
+    background-image: url("https://www.pizzaprime.com.br/wp-content/uploads/2019/10/massa-de-pizza.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: "Pacifico";
+    color: #1b1833;
+}
+.informacoes h1{
+    font-size: 36px;
+}
+
+.informacoes p{
+    font-family: "Rubik Bubbles";
+    font-size: 48px;
+}
+
+.informacoes button{
+    font-family: "Pacifico";
+    background-color: #1b1833;
+    color: white;
+    font-size: 24px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.informacoes button:hover{
+    transform: scale(1.1);
+}
+
